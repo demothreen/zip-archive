@@ -1,0 +1,154 @@
+2017/11/05 19:03:01 [error] [php] require(/home/demothreen/zip-archive/protected/commands/data): failed to open stream: Success (/home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleCommand.php:488)
+Stack trace:
+#0 unknown(0): ZipCommand->actionIndex()
+#1 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#2 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): ZipCommand->run()
+#3 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#6 /home/demothreen/zip-archive/protected/yiic.php(7): require_once()
+#7 /home/demothreen/zip-archive/protected/yiic(4): require_once()
+
+2017/11/05 19:04:48 [error] [php] require(/home/demothreen/zip-archive/protected/commands/data): failed to open stream: Success (/home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleCommand.php:488)
+Stack trace:
+#0 unknown(0): ZipCommand->actionIndex()
+#1 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#2 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): ZipCommand->run()
+#3 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#6 /home/demothreen/zip-archive/protected/yiic.php(7): require_once()
+#7 /home/demothreen/zip-archive/protected/yiic(4): require_once()
+
+2017/11/05 19:04:49 [error] [php] require(/home/demothreen/zip-archive/protected/commands/data): failed to open stream: Success (/home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleCommand.php:488)
+Stack trace:
+#0 unknown(0): ZipCommand->actionIndex()
+#1 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#2 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): ZipCommand->run()
+#3 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#6 /home/demothreen/zip-archive/protected/yiic.php(7): require_once()
+#7 /home/demothreen/zip-archive/protected/yiic(4): require_once()
+
+2017/11/05 19:07:26 [error] [php] require(/home/demothreen/zip-archive/protected/commands/data): failed to open stream: Success (/home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleCommand.php:488)
+Stack trace:
+#0 unknown(0): ZipCommand->actionIndex()
+#1 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#2 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): ZipCommand->run()
+#3 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#4 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#5 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#6 /home/demothreen/zip-archive/protected/yiic.php(7): require_once()
+#7 /home/demothreen/zip-archive/protected/yiic(4): require_once()
+
+2017/11/05 23:03:04 [error] [php] ZipArchive::close(): Read error: Is a directory (/home/demothreen/zip-archive/protected/commands/ZipCommand.php:23)
+Stack trace:
+#0 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#1 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): ZipCommand->run()
+#2 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /home/demothreen/zip-archive/protected/yiic.php(7): require_once()
+#6 /home/demothreen/zip-archive/protected/yiic(4): require_once()
+
+2017/11/05 23:21:51 [error] [php] ZipArchive::close(): Read error: Is a directory (/home/demothreen/zip-archive/protected/commands/ZipCommand.php:27)
+Stack trace:
+#0 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#1 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): ZipCommand->run()
+#2 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /home/demothreen/zip-archive/protected/yiic.php(7): require_once()
+#6 /home/demothreen/zip-archive/protected/yiic(4): require_once()
+
+2017/11/05 23:24:55 [error] [php] ZipArchive::close(): Read error: Is a directory (/home/demothreen/zip-archive/protected/commands/ZipCommand.php:27)
+Stack trace:
+#0 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#1 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): ZipCommand->run()
+#2 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /home/demothreen/zip-archive/protected/yiic.php(7): require_once()
+#6 /home/demothreen/zip-archive/protected/yiic(4): require_once()
+
+2017/11/05 23:25:15 [error] [php] ZipArchive::close(): Read error: Is a directory (/home/demothreen/zip-archive/protected/commands/ZipCommand.php:27)
+Stack trace:
+#0 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#1 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): ZipCommand->run()
+#2 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /home/demothreen/zip-archive/protected/yiic.php(7): require_once()
+#6 /home/demothreen/zip-archive/protected/yiic(4): require_once()
+
+2017/11/05 23:25:44 [error] [php] ZipArchive::close(): Read error: Is a directory (/home/demothreen/zip-archive/protected/commands/ZipCommand.php:27)
+Stack trace:
+#0 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#1 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): ZipCommand->run()
+#2 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /home/demothreen/zip-archive/protected/yiic.php(7): require_once()
+#6 /home/demothreen/zip-archive/protected/yiic(4): require_once()
+
+2017/11/05 23:31:33 [error] [php] ZipArchive::close(): Read error: Is a directory (/home/demothreen/zip-archive/protected/commands/ZipCommand.php:27)
+Stack trace:
+#0 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#1 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): ZipCommand->run()
+#2 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /home/demothreen/zip-archive/protected/yiic.php(7): require_once()
+#6 /home/demothreen/zip-archive/protected/yiic(4): require_once()
+
+2017/11/05 23:31:54 [error] [php] ZipArchive::close(): Read error: Is a directory (/home/demothreen/zip-archive/protected/commands/ZipCommand.php:27)
+Stack trace:
+#0 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#1 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): ZipCommand->run()
+#2 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /home/demothreen/zip-archive/protected/yiic.php(7): require_once()
+#6 /home/demothreen/zip-archive/protected/yiic(4): require_once()
+
+2017/11/05 23:33:44 [error] [php] ZipArchive::close(): Read error: Is a directory (/home/demothreen/zip-archive/protected/commands/ZipCommand.php:27)
+Stack trace:
+#0 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#1 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): ZipCommand->run()
+#2 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /home/demothreen/zip-archive/protected/yiic.php(7): require_once()
+#6 /home/demothreen/zip-archive/protected/yiic(4): require_once()
+
+2017/11/05 23:44:10 [error] [php] ZipArchive::close(): Read error: Is a directory (/home/demothreen/zip-archive/protected/commands/ZipCommand.php:28)
+Stack trace:
+#0 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#1 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): ZipCommand->run()
+#2 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /home/demothreen/zip-archive/protected/yiic.php(7): require_once()
+#6 /home/demothreen/zip-archive/protected/yiic(4): require_once()
+
+2017/11/06 08:59:23 [error] [php] ZipArchive::close(): Read error: Is a directory (/home/demothreen/zip-archive/protected/commands/ZipCommand.php:28)
+Stack trace:
+#0 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#1 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): ZipCommand->run()
+#2 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /home/demothreen/zip-archive/protected/yiic.php(7): require_once()
+#6 /home/demothreen/zip-archive/protected/yiic(4): require_once()
+
+2017/11/06 09:28:36 [error] [php] ZipArchive::close(): Read error: Is a directory (/home/demothreen/zip-archive/protected/commands/ZipCommand.php:36)
+Stack trace:
+#0 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleCommand.php(172): ReflectionMethod->invokeArgs()
+#1 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleCommandRunner.php(71): ZipCommand->run()
+#2 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/console/CConsoleApplication.php(92): CConsoleCommandRunner->run()
+#3 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/base/CApplication.php(185): CConsoleApplication->processRequest()
+#4 /home/demothreen/zip-archive/vendor/yiisoft/yii/framework/yiic.php(33): CConsoleApplication->run()
+#5 /home/demothreen/zip-archive/protected/yiic.php(7): require_once()
+#6 /home/demothreen/zip-archive/protected/yiic(4): require_once()
+
